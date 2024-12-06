@@ -1,0 +1,270 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    color: #E4D9B7;
+    background-color: #2e3d30;
+  }
+  
+  header {
+    background-image: url('imagens/cabeçalhofoto.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    width: 550px;
+  }
+  
+  header .navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-grow: 1;
+    color: #E4D9B7;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  header .navegacao ul li {
+    margin-left: 20px;
+  }
+  
+  header .navegacao ul li a {
+    text-decoration: none;
+    color: #E4D9B7;
+  }
+  
+  header .chamada {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  header .chamada h1 {
+    margin-bottom: 10px;
+    color: #E4D9B7;
+  }
+  
+  header .chamada p {
+    color: #E4D9B7;
+    text-align: center;
+  }
+  
+  .chamada .botao {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #749034;
+    color: #E4D9B7;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+   }
+  
+  
+  .serviços {
+    background-color: #749034;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .serviços h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .serviços-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .itemserviços {
+    text-align: center;
+  }
+  
+  .itemserviços img {
+    width:70px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .portfolio {
+    background-color: #384714;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    margin-bottom: 20px;
+  }
+  
+  .portfolio .itemportfolio {
+    text-align: center;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .itemportfolio img {
+    width:330px;
+    border-radius: 5px;
+  }
+  
+  .itemportfolio p {
+    margin-top: 10px;
+  }
+  
+  
+  .sobre {
+    background-color: #505543;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .sobre h2 {
+    margin-bottom: 20px;
+  }
+  
+  .conteudosobre {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .conteudosobre img {
+    width:350px;
+    border-radius: 10px;
+  }
+  
+  .conteudosobre p {
+    color: #fff;
+  }
+  
+  #Localização {
+    padding: 40px 20px;
+    background-color: #574F39;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #Localização h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #Localização .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #Localização img.mapa {
+    width: 250px;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  #Localização .texto-localizacao {
+    width: 60%;
+    color: #fff;
+  }
+  
+  #Localização p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #Localização .icone {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  
+footer {
+    background-color: #333; 
+    color: #E4D9B7; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+
+footer .funcionamento {
+    flex: 1; 
+    text-align: left;
+}
+
+footer .funcionamento h2 {
+    margin-bottom: 10px;
+}
+
+footer .funcionamento ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .funcionamento ul li {
+    margin-bottom: 5px;
+}
+
+footer .logo-footer {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo-footer img {
+   width:350px;
+    height: auto;
+}
+
+footer .logo-footer p {
+    margin-top: 10px; 
+    color: #E4D9B7;
+}
+
+footer .redes-sociais {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 10px;
+}
+
+footer .redes-sociais img {
+    width: 30px; 
+    height: 30px;
+    cursor: pointer;
+}
